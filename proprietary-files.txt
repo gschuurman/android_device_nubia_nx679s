@@ -111,7 +111,7 @@ vendor/lib64/com.dsi.ant@1.0.so
 # Atrace
 vendor/bin/hw/android.hardware.atrace@1.0-service
 vendor/etc/init/android.hardware.atrace@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
+-vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
 
 # Audio
 system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
@@ -318,7 +318,7 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 # Boot
 vendor/bin/hw/android.hardware.boot@1.2-service
 vendor/etc/init/android.hardware.boot@1.2-service.rc
-vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
+-vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
 
 # Camera
 system_ext/lib/vendor.qti.hardware.seccam@1.0.so
@@ -883,7 +883,7 @@ vendor/etc/camera/vidhance_calibration
 # CAS
 vendor/bin/hw/android.hardware.cas@1.2-service
 vendor/etc/init/android.hardware.cas@1.2-service.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml
+-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -1148,9 +1148,9 @@ vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
 vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
-vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
+-vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -1353,8 +1353,8 @@ vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
 vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
@@ -1463,9 +1463,9 @@ vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
-vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
-vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
+-vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+-vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/lib/libasn1cper.so
 vendor/lib/libasn1crt.so
 vendor/lib/libasn1crtx.so
@@ -1530,7 +1530,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 # Health
 vendor/bin/hw/android.hardware.health@2.1-service
 vendor/etc/init/android.hardware.health@2.1-service.rc
-vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
+-vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
 
 # Identity
 vendor/bin/hw/android.hardware.identity-service-qti
@@ -1580,7 +1580,7 @@ vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/hw/vendor.qti.media.c2audio@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc
-vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+-vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/lib/libqc2audio_base.so
 vendor/lib/libqc2audio_basecodec.so
 vendor/lib/libqc2audio_core.so
@@ -1652,7 +1652,7 @@ vendor/etc/media_profiles_taro.xml
 # Neural networks
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-qti
 vendor/etc/init/android.hardware.neuralnetworks-shim-service-qti.rc
-vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-qti.xml
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-qti.xml
 vendor/lib64/libnnapi_sl_driver.so
 
 # NFC
@@ -1698,7 +1698,7 @@ vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
 vendor/etc/perf/targetsysnodesconfigs.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml
 vendor/etc/powerhint.xml
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
@@ -1980,7 +1980,7 @@ system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/seccomp_policy/imsrtp.policy
-vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml
 vendor/lib/com.qualcomm.qti.imscmservice@1.0.so
 vendor/lib/com.qualcomm.qti.imscmservice@2.0.so
 vendor/lib/com.qualcomm.qti.imscmservice@2.1.so
@@ -2091,7 +2091,7 @@ vendor/bin/sensors.qti
 vendor/bin/sscrpcd
 vendor/etc/init/android.hardware.sensors@2.1-service-multihal.rc
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.sensors@2.1-multihal.xml
+-vendor/etc/vintf/manifest/android.hardware.sensors@2.1-multihal.xml
 vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib/libsensorcal.so
 vendor/lib/libsns_direct_channel_stub.so
@@ -2173,7 +2173,7 @@ vendor/etc/sensors/sns_reg_config
 # Service tracker
 vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service
 vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml
 vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib/vendor.qti.hardware.servicetracker@1.0.so
 vendor/lib/vendor.qti.hardware.servicetracker@1.1.so
@@ -2209,7 +2209,7 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.qti-v2
 vendor/etc/init/android.hardware.thermal@2.0-service.qti-v2.rc
-vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
+-vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
@@ -2261,13 +2261,13 @@ vendor/bin/hw/android.hardware.usb.gadget@1.1-service-qti
 vendor/bin/hw/android.hardware.usb@1.2-service-qti
 vendor/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc
 vendor/etc/init/android.hardware.usb@1.2-service-qti.rc
-vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml
-vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml
+-vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml
+-vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml
 
 # Vibrator
 vendor/bin/hw/vendor.qti.hardware.vibrator.service
 vendor/etc/init/vendor.qti.hardware.vibrator.service.rc
-vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml
 vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
 vendor/lib64/libqtivibratoreffect.so
@@ -2307,9 +2307,9 @@ vendor/bin/hw/wpa_supplicant
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
-vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
-vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
+-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
+-vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
+-vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
 vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
 vendor/lib64/libcert_parse.wpa_s.so
 vendor/lib64/libkeystore-engine-wifi-hidl.so
@@ -2992,24 +2992,24 @@ vendor/etc/seccomp_policy/sensors-qesdk.policy
 vendor/etc/seccomp_policy/sxr@2.0.policy
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml
-vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
-vendor/etc/vintf/manifest/manifest_lahaina_identity.xml
-vendor/etc/vintf/manifest/memtrack_qti.xml
-vendor/etc/vintf/manifest/power.xml
-vendor/etc/vintf/manifest/qtiradio-saidl.xml
-vendor/etc/vintf/manifest/vendor.nubia_hal_server.xml
-vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.qxr-service.xml
-vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml
-vendor/etc/vintf/manifest_cape.xml
-vendor/etc/vintf/manifest_diwali.xml
-vendor/etc/vintf/manifest_taro.xml
+-vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml
+-vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
+-vendor/etc/vintf/manifest/manifest_lahaina_identity.xml
+-vendor/etc/vintf/manifest/memtrack_qti.xml
+-vendor/etc/vintf/manifest/power.xml
+-vendor/etc/vintf/manifest/qtiradio-saidl.xml
+-vendor/etc/vintf/manifest/vendor.nubia_hal_server.xml
+-vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.qxr-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml
+-vendor/etc/vintf/manifest_cape.xml
+-vendor/etc/vintf/manifest_diwali.xml
+-vendor/etc/vintf/manifest_taro.xml
 vendor/etc/GT9897_test_sensor_255_20210713.tporder
 vendor/etc/IPACM_Filter_cfg.xml
 vendor/etc/apdr.conf
