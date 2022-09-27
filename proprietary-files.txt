@@ -1,0 +1,7 @@
+vendor/lib/lib_bt_aptx.so
+vendor/lib64/lib_bt_aptx.so
+
+vendor/priv-app/DualCameraCalibration/DualCameraCalibration.apk
+-vendor/etc/vintf/manifest_cape.xml
+-vendor/etc/vintf/manifest_diwali.xml
+-vendor/etc/vintf/manifest_taro.xml
