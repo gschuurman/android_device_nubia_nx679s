@@ -1,0 +1,5 @@
+persist.sys.usb.config=none
+ro.vendor.build.display.id=NX679J_EUCommon_V4.16
+ro.vendor.build.internal.id=NX679J_Z69_EU_ZML0S_V416
+ro.vendor.dm_build.internal.id=NX679J_Z69_EU_ZML0S_V416
+ro.vendor.qti.va_odm.support=1
