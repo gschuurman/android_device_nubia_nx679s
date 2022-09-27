@@ -108,11 +108,6 @@ vendor/lib/com.dsi.ant@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/com.dsi.ant@1.0.so
 
-# Atrace
-vendor/bin/hw/android.hardware.atrace@1.0-service
-vendor/etc/init/android.hardware.atrace@1.0-service.rc
--vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml
-
 # Audio
 system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
@@ -255,9 +250,6 @@ vendor/etc/default_volume_tables.xml
 vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 
-# Automotive
-vendor/lib/vendor.qti.hardware.automotive.vehicle@1.0.so
-vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -314,11 +306,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so
-
-# Boot
-vendor/bin/hw/android.hardware.boot@1.2-service
-vendor/etc/init/android.hardware.boot@1.2-service.rc
--vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
 
 # Camera
 system_ext/lib/vendor.qti.hardware.seccam@1.0.so
@@ -879,11 +866,6 @@ vendor/etc/camera/golden_camera_calibration.bin
 vendor/etc/camera/siq_ocl_cache
 vendor/etc/camera/superiq_model
 vendor/etc/camera/vidhance_calibration
-
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service
-vendor/etc/init/android.hardware.cas@1.2-service.rc
--vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml
 
 # CDSP
 vendor/bin/cdsprpcd
@@ -1530,7 +1512,6 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 # Health
 vendor/bin/hw/android.hardware.health@2.1-service
 vendor/etc/init/android.hardware.health@2.1-service.rc
--vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
 
 # Identity
 vendor/bin/hw/android.hardware.identity-service-qti
@@ -1648,12 +1629,6 @@ vendor/etc/media_profiles_diwali_v0.xml
 vendor/etc/media_profiles_diwali_v1.xml
 vendor/etc/media_profiles_diwali_v2.xml
 vendor/etc/media_profiles_taro.xml
-
-# Neural networks
-vendor/bin/hw/android.hardware.neuralnetworks-shim-service-qti
-vendor/etc/init/android.hardware.neuralnetworks-shim-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-qti.xml
-vendor/lib64/libnnapi_sl_driver.so
 
 # NFC
 vendor/bin/hw/android.hardware.nfc@1.2-service.sec
@@ -2450,147 +2425,7 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 vendor/app/CACertService/CACertService.apk
 vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/app/com.qualcomm.qti.gpudrivers.taro.api31/com.qualcomm.qti.gpudrivers.taro.api31.apk
-vendor/app/media/theme/thememanager/default_colorful_international/preview/preview_icons_0.png
-vendor/app/media/theme/thememanager/default_colorful_international/preview/preview_launcher_0.png
-vendor/app/media/theme/thememanager/default_colorful_international/preview/preview_lockscreen_0.png
-vendor/app/media/theme/thememanager/default_colorful_international/preview/preview_thumbnail.png
-vendor/app/media/theme/thememanager/default_colorful_international/wallpaper/default_lock_wallpaper.png
-vendor/app/media/theme/thememanager/default_colorful_international/wallpaper/default_wallpaper.png
-vendor/app/media/theme/thememanager/default_colorful_international/Theme_Mark.png
-vendor/app/media/theme/thememanager/default_colorful_international/cn.nubia.launcher
-vendor/app/media/theme/thememanager/default_colorful_international/description.xml
-vendor/app/media/theme/thememanager/default_colorful_international/framework-nubia-res
-vendor/app/media/theme/thememanager/default_colorful_international/icons
-vendor/app/media/theme/thememanager/default_flat_world/preview/preview_icons_0.png
-vendor/app/media/theme/thememanager/default_flat_world/preview/preview_launcher_0.png
-vendor/app/media/theme/thememanager/default_flat_world/preview/preview_lockscreen_0.png
-vendor/app/media/theme/thememanager/default_flat_world/preview/preview_thumbnail.png
-vendor/app/media/theme/thememanager/default_flat_world/wallpaper/default_lock_wallpaper.png
-vendor/app/media/theme/thememanager/default_flat_world/wallpaper/default_wallpaper.png
-vendor/app/media/theme/thememanager/default_flat_world/Theme_Mark.png
-vendor/app/media/theme/thememanager/default_flat_world/cn.nubia.launcher
-vendor/app/media/theme/thememanager/default_flat_world/description.xml
-vendor/app/media/theme/thememanager/default_flat_world/framework-nubia-res
-vendor/app/media/theme/thememanager/default_flat_world/icons
-vendor/app/media/theme/thememanager/default_future_tech/preview/preview_icons_0.png
-vendor/app/media/theme/thememanager/default_future_tech/preview/preview_launcher_0.png
-vendor/app/media/theme/thememanager/default_future_tech/preview/preview_lockscreen_0.png
-vendor/app/media/theme/thememanager/default_future_tech/preview/preview_thumbnail.png
-vendor/app/media/theme/thememanager/default_future_tech/wallpaper/default_lock_wallpaper.png
-vendor/app/media/theme/thememanager/default_future_tech/wallpaper/default_wallpaper.png
-vendor/app/media/theme/thememanager/default_future_tech/Theme_Mark.png
-vendor/app/media/theme/thememanager/default_future_tech/cn.nubia.launcher
-vendor/app/media/theme/thememanager/default_future_tech/description.xml
-vendor/app/media/theme/thememanager/default_future_tech/framework-nubia-res
-vendor/app/media/theme/thememanager/default_future_tech/icons
-vendor/app/media/theme/thememanager/default_future_universe/preview/preview_icons_0.png
-vendor/app/media/theme/thememanager/default_future_universe/preview/preview_launcher_0.png
-vendor/app/media/theme/thememanager/default_future_universe/preview/preview_lockscreen_0.png
-vendor/app/media/theme/thememanager/default_future_universe/preview/preview_thumbnail.png
-vendor/app/media/theme/thememanager/default_future_universe/wallpaper/default_lock_wallpaper.png
-vendor/app/media/theme/thememanager/default_future_universe/wallpaper/default_wallpaper.png
-vendor/app/media/theme/thememanager/default_future_universe/Theme_Mark.png
-vendor/app/media/theme/thememanager/default_future_universe/cn.nubia.launcher
-vendor/app/media/theme/thememanager/default_future_universe/description.xml
-vendor/app/media/theme/thememanager/default_future_universe/framework-nubia-res
-vendor/app/media/theme/thememanager/default_future_universe/icons
-vendor/app/media/theme/thememanager/default_shadow_number/preview/preview_icons_0.png
-vendor/app/media/theme/thememanager/default_shadow_number/preview/preview_launcher_0.png
-vendor/app/media/theme/thememanager/default_shadow_number/preview/preview_lockscreen_0.png
-vendor/app/media/theme/thememanager/default_shadow_number/preview/preview_thumbnail.png
-vendor/app/media/theme/thememanager/default_shadow_number/wallpaper/default_lock_wallpaper.png
-vendor/app/media/theme/thememanager/default_shadow_number/wallpaper/default_wallpaper.png
-vendor/app/media/theme/thememanager/default_shadow_number/Theme_Mark.png
-vendor/app/media/theme/thememanager/default_shadow_number/cn.nubia.launcher
-vendor/app/media/theme/thememanager/default_shadow_number/description.xml
-vendor/app/media/theme/thememanager/default_shadow_number/framework-nubia-res
-vendor/app/media/theme/thememanager/default_shadow_number/icons
-vendor/app/media/theme/thememanager/font_default/preview/font_preview_contact.jpg
-vendor/app/media/theme/thememanager/font_default/preview/font_preview_launcher.png
-vendor/app/media/theme/thememanager/font_default/preview/font_preview_mms.png
-vendor/app/media/theme/thememanager/font_default/preview/font_preview_thumbnail.png
-vendor/app/media/theme/thememanager/font_default/NotoSansHans-Regular.otf
-vendor/app/media/theme/thememanager/font_default/description_font.xml
-vendor/app/media/theme/thememanager/font_default/id_default.extra
-vendor/app/media/theme/thememanager/font_default/id_info.extra
-vendor/app/media/wallpaper/1920/wallpaper_01.png
-vendor/app/media/wallpaper/1920/wallpaper_02.png
-vendor/app/media/wallpaper/1920/wallpaper_03.png
-vendor/app/media/wallpaper/1920/wallpaper_04.png
-vendor/app/media/wallpaper/1920/wallpaper_05.png
-vendor/app/media/wallpaper/1920/wallpaper_06.png
-vendor/app/media/wallpaper/1920/wallpaper_07.png
-vendor/app/media/wallpaper/1920/wallpaper_08.png
-vendor/app/media/wallpaper/1920/wallpaper_09.png
-vendor/app/media/wallpaper/1920/wallpaper_10.png
-vendor/app/media/wallpaper/1920/wallpaper_11.png
-vendor/app/media/wallpaper/1920/wallpaper_12.png
-vendor/app/media/wallpaper/1920_other/wallpaper_01.png
-vendor/app/media/wallpaper/1920_other/wallpaper_02.png
-vendor/app/media/wallpaper/1920_other/wallpaper_03.png
-vendor/app/media/wallpaper/1920_other/wallpaper_04.png
-vendor/app/media/wallpaper/1920_other/wallpaper_05.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_01.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_02.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_03.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_04.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_05.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_06.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_07.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_08.png
-vendor/app/media/wallpaper/1920_wzt/wallpaper_09.png
-vendor/app/media/wallpaper/middle/wallpaper_01.png
-vendor/app/media/wallpaper/middle/wallpaper_02.png
-vendor/app/media/wallpaper/middle/wallpaper_03.png
-vendor/app/media/wallpaper/middle/wallpaper_04.png
-vendor/app/media/wallpaper/middle/wallpaper_05.png
-vendor/app/media/wallpaper/middle/wallpaper_06.png
-vendor/app/media/wallpaper/middle/wallpaper_07.png
-vendor/app/media/wallpaper/middle/wallpaper_08.png
-vendor/app/media/wallpaper/middle/wallpaper_09.png
-vendor/app/media/wallpaper/middle/wallpaper_10.png
-vendor/app/media/wallpaper/middle/wallpaper_11.png
-vendor/app/media/wallpaper/middle/wallpaper_12.png
-vendor/app/media/wallpaper/middle_other/wallpaper_01.png
-vendor/app/media/wallpaper/middle_other/wallpaper_02.png
-vendor/app/media/wallpaper/middle_other/wallpaper_03.png
-vendor/app/media/wallpaper/middle_other/wallpaper_04.png
-vendor/app/media/wallpaper/middle_other/wallpaper_05.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_01.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_02.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_03.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_04.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_05.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_06.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_07.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_08.png
-vendor/app/media/wallpaper/middle_wzt/wallpaper_09.png
-vendor/app/media/wallpaper/small/wallpaper_01.png
-vendor/app/media/wallpaper/small/wallpaper_02.png
-vendor/app/media/wallpaper/small/wallpaper_03.png
-vendor/app/media/wallpaper/small/wallpaper_04.png
-vendor/app/media/wallpaper/small/wallpaper_05.png
-vendor/app/media/wallpaper/small/wallpaper_06.png
-vendor/app/media/wallpaper/small/wallpaper_07.png
-vendor/app/media/wallpaper/small/wallpaper_08.png
-vendor/app/media/wallpaper/small/wallpaper_09.png
-vendor/app/media/wallpaper/small/wallpaper_10.png
-vendor/app/media/wallpaper/small/wallpaper_11.png
-vendor/app/media/wallpaper/small/wallpaper_12.png
-vendor/app/media/wallpaper/small_other/wallpaper_01.png
-vendor/app/media/wallpaper/small_other/wallpaper_02.png
-vendor/app/media/wallpaper/small_other/wallpaper_03.png
-vendor/app/media/wallpaper/small_other/wallpaper_04.png
-vendor/app/media/wallpaper/small_other/wallpaper_05.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_01.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_02.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_03.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_04.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_05.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_06.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_07.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_08.png
-vendor/app/media/wallpaper/small_wzt/wallpaper_09.png
+
 vendor/app/powermodule_java/powermodule_java.apk
 vendor/bin/hw/android.hardware.security.keymint-service-qti
 vendor/bin/hw/capabilityconfigstoretest
